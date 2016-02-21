@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         PWStatic.hidden = false;
         NameStatic.hidden = true;
         AgeStatic.hidden = true;
+        NameStatic.text = "hello";
     }
     @IBAction func OpenRegister(sender: AnyObject) {
         UserNameText.hidden = false;
