@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var PWStatic: UILabel!
     @IBOutlet weak var NameStatic: UILabel!
     @IBOutlet weak var AgeStatic: UILabel!
+    @IBOutlet weak var btn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +55,9 @@ class ViewController: UIViewController {
         AgeStatic.hidden = false;
     }
     
+    @IBAction func hideLogo(sender: AnyObject) {
+        Logo.hidden = true;
+    }
     
     //making a change
 

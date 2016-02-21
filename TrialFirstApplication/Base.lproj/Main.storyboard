@@ -73,6 +73,13 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-02-21 at 3.42.04 PM" translatesAutoresizingMaskIntoConstraints="NO" id="dog-6j-4CZ">
                                 <rect key="frame" x="187" y="12" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qNS-vx-E8F">
+                                <rect key="frame" x="257" y="12" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="hideLogo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mz4-FH-ZHe"/>
+                                </connections>
+                            </button>
                             <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cXP-PW-L33">
                                 <rect key="frame" x="223" y="159" width="126" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -93,6 +100,7 @@
                         <outlet property="RegisterButton" destination="NxM-jD-Iw8" id="H7k-bw-ey6"/>
                         <outlet property="UNStatic" destination="Wsm-Fx-qk4" id="ROM-AV-rFu"/>
                         <outlet property="UserNameText" destination="cXP-PW-L33" id="WGI-3D-osm"/>
+                        <outlet property="btn" destination="qNS-vx-E8F" id="exd-ia-bzf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
